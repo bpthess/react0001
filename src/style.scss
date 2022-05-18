@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+//fonts
+@import "./assets/css/fonts";
+@import "./assets/css/reset";
+@import "./assets/css/common";
+
+//header
+@import "./assets/css/header.scss";
+@import "./assets/css/footer.scss";
+
+//pages
+@import "./assets/css/main.scss";
+@import "./assets/css/about.scss";
+@import "./assets/css/contact.scss";
