@@ -1,0 +1,19 @@
+{
+  "data": {
+    "type": "html",
+    "htmlRefer": [
+      {
+        "id": 1,
+        "title": "CSS",
+        "desc": "CSS는 선택자를 통해 요소를 선택할 수 있습니다.",
+        "type": ":link",
+        "example": "a:link {color:#fff;}",
+        "name": "방문하지 않는 링크의 글씨 색을 하얀색으로 설정합니다.",
+        "image": "//i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/JWzUI/btq4RU22SN8/RDe9aBpQo1ei0I2OThkh91/img.png",
+        "link": "https://webzz.tistory.com/671?category=759977",
+        "Related": [],
+        "w3c": "https://www.w3.org/TR/selectors-3/"
+      }
+    ]
+  }
+}
