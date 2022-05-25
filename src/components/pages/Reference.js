@@ -6,8 +6,8 @@ import Title from "../layout/Title";
 import Touch from "../layout/Touch";
 import Loading from "../includes/Loading";
 import { gsap } from "gsap";
-import HTML from "../includes/ReferTab_html";
-import CSS from "../includes/ReferTab_css";
+import HTML from "../includes/ReferTabHtml";
+import CSS from "../includes/ReferTabCss";
 
 class Reference extends React.Component {
   state = {

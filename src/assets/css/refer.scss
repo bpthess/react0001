@@ -11,7 +11,7 @@
 }
 
 .refer__list {
-  border-top: 2px solid var(--light_bg);
+  border-top: 1px solid var(--light_bg);
   border-bottom: 1px solid var(--light_bg);
 
   a {
@@ -69,12 +69,18 @@
     border: 1px solid var(--light_bg);
     margin-top: 0.5em;
 
+    th {
+      padding-left: 0 !important;
+      font-size: 1.5em;
+      cursor: pointer;
+    }
+
     th,
     td {
       font-weight: normal;
       padding: 1em;
-      border-bottom: 1px solid var(--light_bg);
-      border-left: 1px solid var(--light_bg);
+      // border-bottom: 1px solid var(--light_bg);
+      // border-left: 1px solid var(--light_bg);
     }
   }
 }
@@ -99,14 +105,7 @@
 }
 
 //애니메이션
-// .refer__inner {
-//     opacity: 0;
-//     transform: translateY(50px);
-// }
-
-tr.table th {
-  margin-right: 10px;
-  padding: 10px;
-  border: 1px solid #fff;
-  cursor: pointer;
+.refer__inner {
+  opacity: 0;
+  transform: translateY(50px);
 }

@@ -29,7 +29,7 @@ class Portfolio extends React.Component {
     ports: [],
   };
 
-  mainAnimation = () => {
+  portAnimation = () => {
     setTimeout(() => {
       gsap.to("#header", { duration: 0.8, top: 0 });
       gsap.to("#footer", { duration: 0.8, bottom: 0, delay: 0.2 });

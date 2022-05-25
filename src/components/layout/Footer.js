@@ -5,11 +5,11 @@ function Footer(props) {
     <footer id="footer" className={props.color}>
       <div>
         <h4>email</h4>
-        <a href="mailto:webstroyboy@naver.com">webstoryboy@naver.com</a>
+        <a href="mailto:webstroyboy@naver.com">bpthess@naver.com</a>
       </div>
       <div>
         <h4>Kakao</h4>
-        <a href="/">webstupis</a>
+        <a href="/">lty0</a>
       </div>
       <div>
         <h4>social</h4>

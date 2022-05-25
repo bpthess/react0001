@@ -1,27 +1,27 @@
 import axios from "axios";
 import React from "react";
-import ReferCont from "../includes/ReferCont";
+import ReferCont from "./ReferCont";
 
-class ReferTab_html extends React.Component {
+class ReferTabCss extends React.Component {
   state = {
     refers: [],
   };
 
-  getRefershtml = async () => {
+  getRefersCss = async () => {
     const {
       data: {
-        data: { htmlRefer },
+        data: { cssRefer },
       },
     } = await axios.get(
-      "https://webstoryboy.github.io/react2022/src/assets/json/refer.json"
+      "https://raw.githubusercontent.com/bpthess/react0001/master/src/assets/json/ReferDetail.json"
     );
 
-    console.log(htmlRefer);
-    this.setState({ refers: htmlRefer });
+    console.log(cssRefer);
+    this.setState({ refers: cssRefer });
   };
 
   componentDidMount() {
-    this.getRefershtml();
+    this.getRefersCss();
   }
 
   render() {
@@ -45,10 +45,4 @@ class ReferTab_html extends React.Component {
   }
 }
 
-// function ReferTab_html() {
-//   return (
-//     <div>ReferTab_html</div>
-//   )
-// }
-
-export default ReferTab_html;
+export default ReferTabCss;
