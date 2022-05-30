@@ -4,89 +4,217 @@
     "cssRefer": [
       {
         "id": 1,
-        "title": "[CSS] 트랜지션",
-        "desc": "트랜지션과 관련된 속성입니다.",
-        "desc2": "CSS 트랜지션은 CSS 속성을 변경할 때 애니메이션 속도를 조절하는 방법을 제공합니다. 속성 변경이 즉시 영향을 미치게 하는 대신, 그 속성의 변화가 일정 기간에 걸쳐 일어나도록 할 수 있습니다",
-        "property01": "transition 속성은 요소의 움직임을 정의합니다.",
-        "property02": "transition-delay 속성은 요소의 움직임 시간을 지연합니다.",
-        "property03": "transition-duration 속성은 요소의 움직임 지속시간을 정의합니다.",
-        "property04": "transition-property 속성은 transition의 적용 여부를 정의합니다.",
-        "property05": "transition-timing-function 속성은 요소의 움직임 기능을 정의합니다.",
-        "image": "//i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/JWzUI/btq4RU22SN8/RDe9aBpQo1ei0I2OThkh91/img.png",
-        "link": "https://webzz.tistory.com/679?category=759977"
+        "title": "margin",
+        "desc": "margin 속성은 요소의 바같쪽 여백을 설정합니다.",
+        "default": [
+          "margin-top : 0;",
+          "margin-right : 0;",
+          "margin-bottom : 0;",
+          "margin-left : 0;"
+        ],
+        "syntax": "margin : length | % | auto",
+        "version": "CSS1",
+        "use": "★★★★★"
       },
       {
         "id": 2,
-        "title": "[CSS] 애니메이션",
-        "desc": "애니메이션과 관련된 속성입니다.",
-        "desc2": "CSS 트랜지션은 CSS 속성을 변경할 때 애니메이션 속도를 조절하는 방법을 제공합니다. 속성 변경이 즉시 영향을 미치게 하는 대신, 그 속성의 변화가 일정 기간에 걸쳐 일어나도록 할 수 있습니다",
-        "property01": "animation 속성은 애니메이션을 정의합니다.",
-        "property02": "animation-delay 속성은 요소가 로드된 후 애니메이션이 시작될 때 까지의 시간을 나타냅니다.",
-        "property03": "animation-direction 속성은 애니메이션 움직임 방향을 설정합니다.",
-        "property04": "animation-duration 속성은 애니메이션 움직임 시간을 설정합니다.",
-        "property05": "animation-fill-mode 속성은 애니메이션이 끝난 후의 상태를 설정합니다.",
-        "property06": "animation-fill-mode 속성은 애니메이션이 끝난 후의 상태를 설정합니다.",
-        "property07": "animation-fill-mode 속성은 애니메이션이 끝난 후의 상태를 설정합니다.",
-        "property08": "animation-fill-mode 속성은 애니메이션이 끝난 후의 상태를 설정합니다.",
-        "property09": "animation-fill-mode 속성은 애니메이션이 끝난 후의 상태를 설정합니다.",
-        "property10": "animation-fill-mode 속성은 애니메이션이 끝난 후의 상태를 설정합니다.",
-        "image": "//i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/JWzUI/btq4RU22SN8/RDe9aBpQo1ei0I2OThkh91/img.png",
-        "link": "https://webzz.tistory.com/678?category=759977"
+        "title": "list-style-type",
+        "desc": "list-style-type 속성은 목록 마커의 유형을 설정합니다.",
+        "default": "list-style-type : outside",
+        "syntax": "list-style-type : inside | outside",
+        "version": "CSS1",
+        "use": "★★★☆☆"
       },
       {
         "id": 3,
-        "title": "[CSS] 변형",
-        "desc": "콘텐츠 요소를 보이는 부분을 설정합니다.",
-        "desc2": "CSS 트랜지션은 CSS 속성을 변경할 때 애니메이션 속도를 조절하는 방법을 제공합니다. 속성 변경이 즉시 영향을 미치게 하는 대신, 그 속성의 변화가 일정 기간에 걸쳐 일어나도록 할 수 있습니다",
-        "property01": "transform 속성은 요소의 움직임을 표현합니다.",
-        "property02": "transform-origin 속성은 요소의 움직임 방향을 정의합니다.",
-        "property03": "transform-style 속성은 요소의 움직임 스타일을 정의합니다.",
-        "property04": "perspective 속성은 3D를 표현할 때 원근점을 정의합니다.",
-        "property05": "perspective-origin 속성은 3D를 표현할 때 원근점의 방향을 정의합니다.",
-        "property06": "backface-visibility 속성은 요소의 뒷면을 정의합니다.",
-        "image": "//i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/JWzUI/btq4RU22SN8/RDe9aBpQo1ei0I2OThkh91/img.png",
-        "link": "https://webzz.tistory.com/678?category=759977"
+        "title": "align-content",
+        "desc": "align-content 속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
+        "default": "align-content : stretch",
+        "syntax": "align-content : stretch | center | flex-start | flex-end | space-between | space-around",
+        "version": "CSS3",
+        "use": "★★★☆☆"
       },
       {
         "id": 4,
-        "title": "[CSS] 가시 속성",
-        "desc": "콘텐츠 요소를 보이는 부분을 설정합니다.",
-        "desc2": "CSS 트랜지션은 CSS 속성을 변경할 때 애니메이션 속도를 조절하는 방법을 제공합니다. 속성 변경이 즉시 영향을 미치게 하는 대신, 그 속성의 변화가 일정 기간에 걸쳐 일어나도록 할 수 있습니다",
-        "property01": "display 속성은 요소의 성질을 정의합니다.",
-        "property02": "opacity 속성은 요소의 투명도를 설정합니다.",
-        "property03": "visibility 속성은 요소를 보이지 않게 정의합니다.",
-        "property04": "overflow 속성은 지정한 영역에 요소들이 벗어났을 때 속성을 설정합니다.",
-        "property05": "overflow-x 속성은 X축을 기준으로 지정한 영역에 요소들이 벗어났을 때 속성을 설정합니다.",
-        "property06": "overflow-y 속성은 Y축을 기준으로 지정한 영역에 요소들이 벗어났을 때 속성을 설정합니다.",
-        "image": "//i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/JWzUI/btq4RU22SN8/RDe9aBpQo1ei0I2OThkh91/img.png",
-        "link": "https://webzz.tistory.com/676?category=759977"
+        "title": "justify-content",
+        "desc": "justify-content 속성은 콘텐츠의 좌우 관계 정렬 상태를 정의합니다.",
+        "default": "justify-content : flex-start",
+        "syntax": "justify-content : flex-start | flex-end | center | space-between | space-around",
+        "version": "CSS3",
+        "use": "★★★☆☆"
       },
       {
         "id": 5,
-        "title": "[CSS] 텍스트",
-        "desc": "텍스트와 관련된 속성입니다.",
-        "desc2": "CSS 트랜지션은 CSS 속성을 변경할 때 애니메이션 속도를 조절하는 방법을 제공합니다. 속성 변경이 즉시 영향을 미치게 하는 대신, 그 속성의 변화가 일정 기간에 걸쳐 일어나도록 할 수 있습니다",
-        "property01": "letter-spacing 속성은 글자 사이의 간격을 설정합니다.",
-        "property02": "line-height 속성은 문장과 문장 사이의 간격을 설정합니다.",
-        "property03": "text-align 속성은 텍스트 정렬 방식을 설정합니다.",
-        "property04": "text-align-last 속성은 문장의 마지막 텍스트 정렬 방식을 설정합니다.",
-        "property05": "text-decoration 속성은 글자 라인 속성을 설정합니다.",
-        "property06": "text-decoration-color 속성은 글자 라인 색을 설정합니다.",
-        "property07": "text-decoration-line 속성은 글자 라인 스타일을 설정합니다.",
-        "property08": "text-decoration-style 속성은 글자 스타일을 정의합니다.",
-        "property09": "text-justify 속성은 텍스트의 간격을 정의합니다.",
-        "property10": "text-overflow 속성은 문자열 영역 속성을 설정합니다.",
-        "property11": "text-shadow 속성은 텍스트에 그림자를 설정합니다.",
-        "property12": "text-transform 속성은 텍스트를 대문자나 소문자로 변경합니다.",
-        "property13": "unicode-bidi 속성은 글자의 방향 속성을 설정합니다.",
-        "property14": "user-select 속성은 요소의 텍스트를 선택할 지 정의합니다.",
-        "property15": "vertical-align 속성은 텍스트의 상하 정렬 방식을 설정합니다.",
-        "property16": "white-space 속성은 줄바꿈, 공백, 줄 속성을 설정합니다.",
-        "property17": "word-break 속성은 줄바꿈 속성을 설정합니다.",
-        "property18": "word-spacing 속성은 단어 사이의 간격을 정의합니다.",
-        "property19": "word-wrap 속성은 줄바꿈을 설정합니다.",
-        "image": "//i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/JWzUI/btq4RU22SN8/RDe9aBpQo1ei0I2OThkh91/img.png",
-        "link": "https://webzz.tistory.com/675?category=759977"
+        "title": "align-items",
+        "desc": "align-items 속성은 콘텐츠 아이템의 내부 상하관계 정렬 상태를 설정합니다.",
+        "default": "align-items : stretch",
+        "syntax": "align-items : stretch | center | flex-start | flex-end | baseline",
+        "version": "CSS3",
+        "use": "★★★★☆"
+      },
+      {
+        "id": 6,
+        "title": "animation",
+        "desc": "animation 속성은 애니메이션과 관련된 속성을 일괄적으로 설정합니다.",
+        "default": [
+          "animation-name: none;",
+          "animation-duration: 0s;",
+          "animation-timing-function: ease;",
+          "animation-delay: 0s;",
+          "animation-iteration-count: 1;",
+          "animation-direction: normal;",
+          "animation-fill-mode: none;",
+          "animation-play-state: running;"
+        ],
+        "syntax": "animation: @keyframes name | duration | timing-function | delay | iteration-count | direction | fill-mode | play-state;",
+        "version": "CSS3",
+        "use": "★★★★★"
+      },
+      {
+        "id": 7,
+        "title": "background",
+        "desc": "background 속성은 백그라운드 속성을 일괄적으로 설정합니다.",
+        "default": [
+          "background-attachment: scroll;",
+          "background-clip: border-box;",
+          "background-color: transparent;",
+          "background-image: none;",
+          "background-origin: padding-box;",
+          "background-position: 0% 0%;",
+          "background-repeat: repeat;",
+          "background-size: auto auto;"
+        ],
+        "syntax": "background : background-attachment | background-clip | background-color | background-image | background-origin | background-position | background-repeat | background-size | inherit;",
+        "version": "CSS3",
+        "use": "★★★★★"
+      },
+      {
+        "id": 8,
+        "title": "border",
+        "desc": "border 속성은 테두리 속성을 일괄적으로 설정합니다.",
+        "default": [
+          "border-width : medium",
+          "border-style : none",
+          "border-color : currentColor",
+          "border-image : none",
+          "border-radius :0"
+        ],
+        "syntax": "border: border-color | border-style | border-width | inherit;",
+        "version": "CSS1",
+        "use": "★★★★★"
+      },
+      {
+        "id": 9,
+        "title": "box-shadow",
+        "desc": "box-shadow 속성은 박스 요소의 그림자를 설정합니다.",
+        "default": "box-shadow : none",
+        "syntax": "box-shadow : none | h-shadow | v-shadow | blur | spread | color | inset",
+        "version": "CSS3",
+        "use": "★★★☆☆"
+      },
+      {
+        "id": 10,
+        "title": "clear",
+        "desc": "clear 속성은 float 요소의 성질을 차단합니다.",
+        "default": "clear : none",
+        "syntax": "clear: none | left | right | both",
+        "version": "CSS3",
+        "use": "★★★★☆"
+      },
+      {
+        "id": 11,
+        "title": "color",
+        "desc": "color 속성은 글씨 색을 설정합니다.",
+        "default": "color : 브라우저마다 다양함(브라우저 기본 색)",
+        "syntax": "color : color",
+        "version": "CSS1",
+        "use": "★★★★★"
+      },
+      {
+        "id": 12,
+        "title": "columns",
+        "desc": "columns 속성은 열의 폭과 열의 수를 정의합니다.",
+        "default": ["column-width : auto;", "column-count : auto;"],
+        "syntax": "columns : auto | column-width | column-count",
+        "version": "CSS3",
+        "use": "★★★☆☆"
+      },
+      {
+        "id": 13,
+        "title": "flex",
+        "desc": "flex 속성은 콘텐츠의 성질을 flex로 정의합니다.",
+        "default": ["flex-grow : 0", "flex-shrink : 1", "flex-basis : auto"],
+        "syntax": "flex : flex-grow | flex-shrink | flex-basis | auto",
+        "version": "CSS3",
+        "use": "★★★★☆"
+      },
+      {
+        "id": 14,
+        "title": "float",
+        "desc": "float 속성은 블록요소의 정렬 상태를 설정합니다.",
+        "default": "float : none",
+        "syntax": "float : none | left | right",
+        "version": "CSS1",
+        "use": "★★★★☆"
+      },
+      {
+        "id": 15,
+        "title": "font-style",
+        "desc": "font-style 속성은 폰트의 스타일을 정의합니다.",
+        "default": "font-style : normal",
+        "syntax": "font-style : normal | italic | oblique",
+        "version": "CSS3",
+        "use": "★★★★★"
+      },
+      {
+        "id": 16,
+        "title": "font-weight",
+        "desc": "font-weight 속성은 폰트의 두께를 정의합니다.",
+        "default": "font-weight : normal",
+        "syntax": "font-weight : normal | bold | bolder | lighter | number",
+        "version": "CSS1",
+        "use": "★★★★★"
+      },
+      {
+        "id": 17,
+        "title": "font-family",
+        "desc": "font-family 속성은 폰트 종류를 설정합니다.",
+        "default": "font-family : 사용자 설정에 따름",
+        "syntax": "font-family : font",
+        "version": "CSS1",
+        "use": "★★★★★"
+      },
+      {
+        "id": 18,
+        "title": "grid",
+        "desc": "grid-template-columns 속성은 가로 컬럼의 크기와 위치 설정합니다.",
+        "default": "grid-template-columns : 0",
+        "syntax": "grid-template-columns: length;",
+        "version": "CSS3",
+        "use": "★★☆☆☆"
+      },
+      {
+        "id": 19,
+        "title": "line-height",
+        "desc": "line-height 속성은 문장과 문장 사이의 간격을 설정합니다.",
+        "default": "line-height : normal",
+        "syntax": "line-height : normal | number | length | percentage",
+        "version": "CSS1",
+        "use": "★★★★☆"
+      },
+      {
+        "id": 20,
+        "title": "padding",
+        "desc": "padding 속성은 요소의 안쪽 여백을 설정합니다.",
+        "default": [
+          "padding-top : 0",
+          "padding-right : 0",
+          "padding-bottom : 0",
+          "padding-left : 0"
+        ],
+        "syntax": "padding : padding-top | padding-right | padding-bottom | padding-left",
+        "version": "CSS1",
+        "use": "★★★★★"
       }
     ]
   }
