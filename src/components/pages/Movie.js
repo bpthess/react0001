@@ -14,48 +14,49 @@ import { gsap } from "gsap";
 function Movie() {
   const [videos, setVideos] = useState([]);
 
-  function mainAnimation() {
+  const mainAnimation = () => {
     setTimeout(() => {
       document.getElementById("loading").classList.remove("loading__active");
 
       gsap.to("#header", {
-        duration: 0.4,
+        duration: 0.8,
         top: 0,
       });
       gsap.to("#footer", {
-        duration: 0.4,
+        duration: 0.8,
         bottom: 0,
+        delay: 0.2,
       });
       gsap.to(".cont__title strong", {
-        duration: 0.5,
+        duration: 0.7,
         y: 0,
         opacity: 1,
         delay: 1.0,
-        ease: "Power4.out",
+        ease: "power4.out",
       });
       gsap.to(".cont__title em", {
         duration: 0.7,
         y: 0,
         opacity: 1,
         delay: 1.3,
-        ease: "Power4.out",
+        ease: "power4.out",
       });
-      gsap.to(".movie__search", {
+      gsap.to(".youtube__search", {
         duration: 0.7,
         y: 0,
         opacity: 1,
         delay: 1.5,
-        ease: "Power4.out",
+        ease: "power4.out",
       });
-      gsap.to(".movie__list", {
+      gsap.to(".movie__inner", {
         duration: 0.7,
         y: 0,
         opacity: 1,
         delay: 1.5,
-        ease: "Power4.out",
+        ease: "power4.out",
       });
-    }, 10);
-  }
+    }, 2000);
+  };
 
   const search = (query) => {
     var requestOptions = {

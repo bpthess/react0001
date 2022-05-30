@@ -1,20 +1,21 @@
+.youtube__cont {
+  background-color: var(--black);
+}
 .youtube__list {
-  // max-width: 1200px;
-  // width: 98%;
-  // margin: 0 auto;
-
   ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 
     li {
       flex: 1 1 23%;
       margin: 1%;
 
+      img {
+        border-radius: 0.4em;
+      }
       p {
-        font-family: var(--subKor_font);
         color: var(--white);
+        font-family: var(--subKor_font);
         padding-top: 10px;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -37,9 +38,8 @@
     width: 0;
     height: 0;
   }
-
   input {
-    border: 1px solid var(--light_border);
+    border: 2px solid var(--light_border);
     width: 98%;
     background: var(--black);
     border-radius: 50px;
@@ -47,17 +47,16 @@
     color: var(--light_bg);
     font-family: var(--subKor_font);
     margin: 0 1%;
-    margin-bottom: 3%;
+    margin-bottom: 5%;
   }
-
   button {
     position: absolute;
-    right: 20px;
-    top: 8px;
+    right: 22px;
+    top: 9px;
     background: transparent;
-    background: #fff;
     border: 0;
     color: var(--black);
+    background: #fff;
     font-family: var(--subKor_font);
     width: 40px;
     height: 40px;
@@ -78,13 +77,8 @@
 }
 
 // 애니메이션
-// .youtube__search,
-// .youtube__list {
-//   opacity: 0;
-//   transform: translateY(100px);
-// }
-
-// light버전
-// .youtube__cont.light {
-//   background: var(--light_bg);
-// }
+.youtube__search,
+.youtube__list {
+  opacity: 0;
+  transform: translateY(100px);
+}

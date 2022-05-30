@@ -15,27 +15,44 @@ class Main extends React.Component {
 
   mainAnimation = () => {
     setTimeout(() => {
-      gsap.to("#header", { duration: 0.8, top: 0 });
-      gsap.to("#footer", { duration: 0.8, bottom: 0, delay: 0.2 });
-      gsap.to(".cont__title strong", {
-        duration: 0.8,
-        y: 0,
-        opacity: 1,
-        delay: 1,
-        ease: "power4.out",
+      gsap.to("#header", {
+        duration: 1.2,
+        top: 0,
       });
-    });
-    gsap.to(
-      ".main__inner",
-      {
-        duration: 0.5,
+      gsap.to("#footer", {
+        duration: 1.2,
+        delay: 1.6,
+        bottom: 0,
+      });
+      gsap.to(".main__inner > div:nth-child(1)", {
+        duration: 0.6,
         y: 0,
         opacity: 1,
+        ease: "back.out(2.2)",
+        delay: 1.2,
+      });
+      gsap.to(".main__inner > div:nth-child(2)", {
+        duration: 0.6,
+        y: 0,
+        opacity: 1,
+        ease: "back.out(2.2)",
+        delay: 1.5,
+      });
+      gsap.to(".main__inner > div:nth-child(3)", {
+        duration: 0.6,
+        y: 0,
+        opacity: 1,
+        ease: "back.out(2.2)",
         delay: 1.8,
-        ease: "power4.out",
-      },
-      10
-    );
+      });
+      gsap.to(".main__inner > div:nth-child(4)", {
+        duration: 0.6,
+        y: 0,
+        opacity: 1,
+        ease: "back.out(2.2)",
+        delay: 2.1,
+      });
+    }, 100);
   };
 
   getPorts = async () => {

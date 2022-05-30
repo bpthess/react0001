@@ -12,12 +12,9 @@
   }
 }
 
-.movie__search {
-}
-
 // 애니메이션
 .movie__search,
-.movie__lst {
+.movie__list {
   opacity: 0;
   transform: translateY(100px);
 }

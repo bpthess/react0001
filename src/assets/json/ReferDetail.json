@@ -206,15 +206,293 @@
         "id": 20,
         "title": "padding",
         "desc": "padding 속성은 요소의 안쪽 여백을 설정합니다.",
-        "default": [
-          "padding-top : 0",
-          "padding-right : 0",
-          "padding-bottom : 0",
-          "padding-left : 0"
-        ],
+        "default": ["padding : 0"],
         "syntax": "padding : padding-top | padding-right | padding-bottom | padding-left",
         "version": "CSS1",
+        "use": "★★★"
+      },
+      {
+        "id": 21,
+        "title": "트랜지션",
+        "desc": "transition 속성은 요소의 움직임을 정의합니다.",
+        "default": ["transition-delay : 0s"],
+        "version": "CSS1",
         "use": "★★★★★"
+      },
+      {
+        "id": 22,
+        "title": "flex-flow",
+        "desc": "flex-flow 속성은 요소의 정렬 방향과 줄 속성을 설정합니다.",
+        "default": ["flex-direction : row", "flex-wrap : nowrap"],
+        "version": "CSS1",
+        "use": "★★★★★"
+      },
+      {
+        "id": 23,
+        "title": "empty-cells",
+        "desc": "empty-cells 속성은 테이블의 빈요소의 속성을 설정합니다.",
+        "default": ["empty-cells : show"],
+        "syntax": "empty-cells : show | hide",
+        "version": "CSS1",
+        "use": "★★★★★"
+      },
+      {
+        "id": 24,
+        "title": "cursor",
+        "desc": "cursor 속성은 마우스 오버시 마우스 포인터를 정의합니다.",
+        "default": ["cursor : auto;"],
+        "syntax": "cursor : alias | all-scroll | auto | cell | context-menu | col-resize | copy | crosshair | default | e-resize | ew-resize | grab | grabbing | help | move | n-resize | ne-resize | nesw-resize | ns-resize | nw-resize | nwse-resize | no-drop | none | not-allowed | pointer | progress | row-resize | s-resize | se-resize | sw-resize | text | URL | vertical-text | w-resize | wait | zoom-in | zoom-out",
+        "version": "CSS1",
+        "use": "★"
+      },
+      {
+        "id": 25,
+        "title": "z-index",
+        "desc": "z-index 속성은 요소의 위치가 겹칠 경우 순서를 정의합니다.",
+        "default": [],
+        "version": "CSS1",
+        "use": "★"
+      },
+      {
+        "id": 26,
+        "title": "vertical-align",
+        "desc": "vertical-align 속성은 텍스트의 상하 정렬 방식을 설정합니다.",
+        "default": [
+          "vertical-align 속성은 요소의 텍스트를 선택할 지 정의합니다.",
+          "vertical-align은 인라인 요소에만 적용되기 때문에 블럭 구조에서 정렬은 적용되지 않습니다.",
+          "글씨와 이미지 및 글씨와 input의 정렬상태가 맞지 않는다면, 이미지 요소 및 input에게 vertical-align을 주어야합니다."
+        ],
+        "syntax": "vertical-align : baseline | length | sub | super | top | text-top | middle | bottom | text-bottom",
+        "version": "CSS1",
+        "use": "★★"
+      },
+      {
+        "id": 27,
+        "title": "unicode-bidi",
+        "desc": "unicode-bidi 속성은 글자의 방향 속성을 설정합니다.",
+        "default": [
+          "unicode-bidi 속성은 글자의 방향 속성을 설정합니다.",
+          "unicode-bidi는 문장의 방향 속성을 설정하는 diretion과 비교됩니다."
+        ],
+        "syntax": "unicode-bidi : normal | embed | bidi-override",
+        "version": "CSS1",
+        "use": "★★★"
+      },
+      {
+        "id": 28,
+        "title": "transition-timing-function",
+        "desc": "transition-timing-function 속성은 요소의 움직임 기능을 정의합니다.",
+        "default": ["transition-timing-function : ease"],
+        "syntax": "transition-timing-function : linear | ease | ease-in | ease-out | ease-in-out | step-start | step-end | steps(int,start|end) | cubic-bezier(n,n,n,n) | inherit",
+        "version": "CSS1",
+        "use": "★★★★"
+      },
+      {
+        "id": 29,
+        "title": "transition-delay",
+        "desc": "transition-delay 속성은 요소의 움직임 시간을 지연합니다.",
+        "default": ["transition-delay : 0s"],
+        "syntax": "transition-delay : time",
+        "version": "CSS1",
+        "use": "★★★★"
+      },
+      {
+        "id": 30,
+        "title": "top",
+        "desc": "top 속성은 위치 요소의 위쪽 속성을 설정합니다.",
+        "default": ["top : auto"],
+        "syntax": "top : auto | length | percentage",
+        "version": "CSS1",
+        "use": "★★"
+      },
+      {
+        "id": 31,
+        "title": "text-justify",
+        "desc": "text-justify 속성은 텍스트의 간격을 정의합니다.",
+        "default": ["text-justify : auto"],
+        "syntax": "text-justify : auto | inter-word | inter-ideograph | inter-cluster | distribute | kashida | trim",
+        "version": "CSS1",
+        "use": "★★"
+      },
+      {
+        "id": 32,
+        "title": "text-indent",
+        "desc": "text-indent 속성은 문단 들여쓰기 속성을 설정합니다.",
+        "default": ["length", "%"],
+        "syntax": "text-indent : length | percentage",
+        "version": "CSS1",
+        "use": "★★"
+      },
+      {
+        "id": 33,
+        "title": "text-decoration-style",
+        "desc": "text-decoration-style 속성은 글자 스타일을 정의합니다.",
+        "default": ["solid"],
+        "syntax": "text-decoration-style : solid | double | dotted | dashed | wavy",
+        "version": "CSS1",
+        "use": "★★"
+      },
+      {
+        "id": 34,
+        "title": "text-align-last",
+        "desc": "text-align-last 속성은 문장의 마지막 텍스트 정렬 방식을 설정합니다.",
+        "default": ["text-align-last : auto"],
+        "syntax": "text-align-last : auto | left | right | center | justify | start | end",
+        "version": "CSS1",
+        "use": "★★"
+      },
+      {
+        "id": 35,
+        "title": "tab-size",
+        "desc": "tab-size 속성은 글씨의 간격을 정의합니다.",
+        "default": ["tab-size : 8"],
+        "syntax": "tab-size : number | length",
+        "version": "CSS1",
+        "use": "★★"
+      },
+      {
+        "id": 35,
+        "title": "quotes",
+        "desc": "quotes 속성은 인용 부호를 정의합니다.",
+        "default": ["-"],
+        "syntax": "quotes : none | string",
+        "version": "CSS1",
+        "use": "★"
+      },
+      {
+        "id": 36,
+        "title": "perspective-origin",
+        "desc": "perspective-origin 속성은 3D를 표현할 때 원근점의 방향을 정의합니다.",
+        "default": ["perspective-origin : 50% 50%"],
+        "syntax": "perspective-origin : x-axis | y-axis",
+        "version": "CSS1",
+        "use": "★★★★★"
+      },
+      {
+        "id": 37,
+        "title": "page-break-after",
+        "desc": "page-break-after 속성은 페이지 인쇄시 분리에 관한 설정을 정의합니다.",
+        "default": ["page-break-after : auto"],
+        "syntax": "page-break-after : auto | always | avoid | left | right",
+        "version": "CSS1",
+        "use": "★★★"
+      },
+      {
+        "id": 38,
+        "title": "overflow-y",
+        "desc": "overflow-y 속성은 Y축을 기준으로 지정한 영역에 요소들이 벗어났을 때 속성을 설정합니다.",
+        "default": ["overflow-y : visible"],
+        "syntax": "overflow-y : visible | hidden | scroll | auto",
+        "version": "CSS1",
+        "use": "★★"
+      },
+      {
+        "id": 39,
+        "title": "overflow-x",
+        "desc": "overflow-x 속성은 X축을 기준으로 지정한 영역에 요소들이 벗어났을 때 속성을 설정합니다.",
+        "default": ["overflow-x : visible"],
+        "syntax": "overflow-x : visible | hidden | scroll | auto",
+        "version": "CSS1",
+        "use": "★★"
+      },
+      {
+        "id": 40,
+        "title": "outline-style",
+        "desc": "outline-style 속성은 아웃라인 스타일을 정의합니다.",
+        "default": ["outline-style : none"],
+        "syntax": "outline-style : none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset",
+        "version": "CSS1",
+        "use": "★"
+      },
+      {
+        "id": 41,
+        "title": "order",
+        "desc": "order 속성은 flex 콘텐츠의 순서를 정의합니다.",
+        "default": ["rder : 0"],
+        "syntax": "order : number",
+        "version": "CSS1",
+        "use": "★"
+      },
+      {
+        "id": 42,
+        "title": "opacity",
+        "desc": "opacity 속성은 요소의 투명도를 설정합니다.",
+        "default": ["opacity : 1"],
+        "syntax": "opacity : number",
+        "version": "CSS1",
+        "use": "★"
+      },
+      {
+        "id": 43,
+        "title": "backdrop-filter",
+        "desc": "backdrop-filter 속성은 배경에 그래픽 효과를 설정합니다.",
+        "default": ["backdrop-filter : none"],
+        "syntax": "backdrop-filter : none | blur() | brightness() | contrast() | drop-shadow() | grayscale() | hue-rotate() | invert() | opacity() | sepia() | saturate()",
+        "version": "CSS1",
+        "use": "★★★★★"
+      },
+      {
+        "id": 44,
+        "title": "grid-template-areas",
+        "desc": "grid-template-areas 속성은 아이템의 위치를 설정합니다.",
+        "default": ["grid-template-areas : none"],
+        "syntax": "grid-template-areas: length",
+        "version": "CSS1",
+        "use": "★★★★★"
+      },
+      {
+        "id": 45,
+        "title": "min-height",
+        "desc": "min-height 속성은 요소의 최소 세로 값을 설정합니다.",
+        "default": ["min-height : 0"],
+        "syntax": "min-height : length | %",
+        "version": "CSS1",
+        "use": "★★★"
+      },
+      {
+        "id": 46,
+        "title": "margin-left",
+        "desc": "margin-left 속성은 요소의 왼쪽 바같쪽 여백을 설정합니다.",
+        "default": ["margin-left : 0"],
+        "syntax": "margin-left : length | % | auto",
+        "version": "CSS1",
+        "use": "★★"
+      },
+      {
+        "id": 47,
+        "title": "letter-spacing",
+        "desc": "letter-spacing 속성은 글자 사이의 간격을 설정합니다.",
+        "default": ["letter-spacing : normal"],
+        "syntax": "letter-spacing : normal | length",
+        "version": "CSS1",
+        "use": "★"
+      },
+      {
+        "id": 48,
+        "title": "hyphens",
+        "desc": "hyphens 속성은 텍스트의 하이픈 영역을 설정합니다.",
+        "default": ["hyphens : auto"],
+        "syntax": "hyphens : none | manual | auto",
+        "version": "CSS1",
+        "use": "★"
+      },
+      {
+        "id": 49,
+        "title": "grid",
+        "desc": "grid-template-columns 속성은 가로 컬럼의 크기와 위치 설정합니다.",
+        "default": ["grid-template-columns : 0"],
+        "syntax": "grid-template-columns: length;",
+        "version": "CSS1",
+        "use": "★★★★★"
+      },
+      {
+        "id": 50,
+        "title": "font-family",
+        "desc": "font-family 속성은 폰트 종류를 설정합니다.",
+        "default": ["font-family : 사용자 설정에 따름"],
+        "syntax": "font-family : font",
+        "version": "CSS1",
+        "use": "★"
       }
     ]
   }
