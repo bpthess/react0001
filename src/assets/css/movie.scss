@@ -1,0 +1,23 @@
+.movie__inner {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+    li {
+      width: 24%;
+      a {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.movie__search {
+}
+
+// 애니메이션
+.movie__search,
+.movie__lst {
+  opacity: 0;
+  transform: translateY(100px);
+}
