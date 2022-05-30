@@ -36,14 +36,7 @@ function About() {
         delay: 1.3,
         ease: "power4.out",
       });
-      gsap.to(".movie__search", {
-        duration: 0.7,
-        y: 0,
-        opacity: 1,
-        delay: 1.5,
-        ease: "power4.out",
-      });
-      gsap.to(".movie__list", {
+      gsap.to(".about__inner", {
         duration: 0.7,
         y: 0,
         opacity: 1,
