@@ -56,7 +56,7 @@ function About() {
   mainAnimation();
   return (
     <>
-      <Loading />
+      <Loading color="light" />
       <Header color="light" />
       <Contents>
         <Title title={["About", "me"]} color="light" />
