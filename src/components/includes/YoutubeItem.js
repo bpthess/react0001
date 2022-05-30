@@ -9,7 +9,7 @@ function YoutubeItem(props) {
           src={props.video.snippet.thumbnails.medium.url}
           alt={props.video.snippet.title}
         />
-        <p>{props.video.snippet.title}</p>
+        <p className="title">{props.video.snippet.title}</p>
       </a>
     </li>
   );

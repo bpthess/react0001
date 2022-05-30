@@ -1,13 +1,28 @@
 .movie__inner {
+  opacity: 0;
+  transform: translateY(50px);
   ul {
     display: flex;
     flex-wrap: wrap;
     gap: 1%;
-    li {
-      width: 24%;
-      a {
-        color: #fff;
-      }
+  }
+  li {
+    width: 24%;
+
+    img {
+      width: 100%;
+      border-radius: 0.4em;
+    }
+
+    p {
+      padding-top: 10px;
+      font-family: var(--subKor_font);
+      color: var(--white);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
     }
   }
 }
